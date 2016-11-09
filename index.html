@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content="text/html" charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Seanan Chabra | Full Stack Wizard</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <section class="container">
+    <section class="row">
+      <div class="col-md-6">
+        <img src="img/logo/seanan.jpeg" class="img-circle logo-img" alt="Profile Picture">
+      </div>
+      <div class="col-md-6 text-right text-uppercase">
+        <h1>Seanan Chabra</h1>
+        <h4>Full Stack Wizard</h4>
+      </div>
+    </section>
+    <section class="row">
+      <div class="col-md-12">
+        <hr>
+      </div>
+    </section>
+    <section class="row">
+      <div class="col-md-12">
+        <figure>
+          <picture>
+            <source media="(min-width: 991px)" srcset="img/coding.jpg"/>
+            <source media="(min-width: 500px)" srcset="images/coding-750.jpg"/>
+            <img src="images/coding-500.jpg" class="img-responsive" alt="Werk Logo">
+          </picture>
+        </figure>
+      </div>
+    </section>
+    <section class="row">
+      <div class="col-md-12">
+        <h2>Featured Work</h2>
+      </div>
+    </section>
+    <section class="row">
+      <div class="col-md-6 projects">
+        <img src="img/lockation.png" class="img-responsive" data-toggle="modal" data-target="#project1" alt="Modal view of Lockation">
+        <h3>HackPrinceton Hack</h3>
+        <p><a href="https://github.com/AtotheY/Lockation" target="_blank">lockation.git</a></p>
+      </div>
+      <div class="col-md-6 projects">
+        <img src="img/popcorn.jpg" class="img-responsive" data-toggle="modal" data-target="#project2" alt="Modal view of Popcorn">
+        <h3>Favourite Movies</h3>
+        <p><a href="https://github.com/xCoBaLTz/MovieWebsite" target="_blank">movietrailerwebsite.git</a></p>
+      </div>
+    </section>
+    <section class="row">
+      <div class="col-md-6 projects">
+        <img src="img/blog.png" class="img-responsive" data-toggle="modal" data-target="#project3" alt="Modal view of Blog">
+        <h3>Multi-User Blog</h3>
+        <p><a href="https://github.com/xCoBaLTz/multi-user-blog" target="_blank">multiuserblog.git</a></p>
+      </div>
+      <div class="col-md-6 projects">
+        <img src="img/resume.jpg" class="img-responsive" data-toggle="modal" data-target="#project4" alt="Modal view of Blog">
+        <h3>JavaScript Resume</h3>
+        <p><a href="http://seananchabra.me/resume.html" target="_blank">JavaScript Resume</a></p>
+      </div>
+    </section>
+    <hr>
+    <section class="row footer">
+      <h3>Lets Connect:</h3>
+    </section>
+    <section class="row footer">
+    <div class="col-md-12 footer">
+      <a target="_blank" href="mailto:seananchabra@hotmail.com"><span class="fa fa-envelope-o fa-2x"></span></a>
+      <a target="_blank" href="https://ca.linkedin.com/in/seananchabra"><span class="fa fa-linkedin fa-2x"></span></a>
+      <a target="_blank" href="https://github.com/xCoBaLTz"><span class="fa fa-github fa-2x"></span></a>
+      <a target="_blank" href="https://twitter.com/S_Chabra"><span class="fa fa-twitter fa-2x"></span></a>
+      <a target="_blank" href="https://facebook.com/seanan95"><span class="fa fa-facebook-official fa-2x"></span></a>
+      <a target="_blank" href="https://open.kattis.com/users/seanan"><span class="fa fa-code fa-2x"></span></a>
+    </div>
+    </section>
+  </div>
+  </section>
+
+  <!-- Modal -->
+  <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel1">First App</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="img/lockation.png" alt="Lockation Logo">
+          This was the first app I ever made, it was made at a Hackathon at Princeton University. I
+          worked with a team of 4 to create a fraud detection system using Capital One’s API, Twilio API,
+          and Twitter API that could determine whether a transaction was fraud or not based on location of their
+          last tweet in coherence to the transaction. I specifically focused on the back end implementation of the project.
+          Focusing on the implementation of the database, storage of the of the Capital One transactions and Twitter information.
+          Helped with the frontend implementation and was very involved with the overall planning/design of the project.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel2">Favourite Movies</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="img/popcorn.jpg" alt="Popcorn bag">
+          Server-side code written in Python to store a list of my favorite movies, including box art imagery and a movie trailer URL.
+          This data is then served to a web page using HTML and CSS allowing visitors to review these movies and watch the trailers.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel3">Multi-User Blog</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="img/blog.png" alt="Blog">
+          I am currently working on the Multi-User Blog, the stack for the blog is
+          written in Python for the client and server side. The database is created
+          using Google Datastore using Google's own query language GQL. The goal of the blog will
+          be to allow users to register and login to the site, using secure encrytion
+          methods. Users will be allowed to post blogs, comments and like peoples posts.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel4" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel4">JavaScript Resume</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="img/resume.jpg" alt="Blog">
+          My Resume created using JavaScript.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
